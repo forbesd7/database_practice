@@ -1,1 +1,1 @@
--- Your SQL here
+select * from students where date_part('year', date_of_birth) <= 1994;
